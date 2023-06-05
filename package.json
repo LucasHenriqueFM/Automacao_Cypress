@@ -1,0 +1,20 @@
+{
+  "name": "desafio_3_cucumber",
+  "version": "1.0.0",
+  "description": "Cypress com Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open",
+    "test:tag1": "npx cypress-tags run -e TAGS='@E2E'"
+  },
+  "author": "Lucas Henrique",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.3.0",
+    "cypress-cucumber-preprocessor": "^4.0.0",
+    "cypress-tags": "^1.1.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "testFiles": "**/*.feature",
+  "ignoreTestFiles": "**/node_modules",
+  "plugins": {
+    "cypress-cucumber-preprocessor": {
+      "nonGlobalStepDefinitions": true,
+      "step_definitions": "cypress/integration/loginSteps.js"
+    }
+  }
+}
