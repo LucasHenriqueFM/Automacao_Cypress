@@ -16,6 +16,8 @@ Certifique-se de ter o Node.js instalado em sua máquina. Você pode verificar a
 - Configure as variáveis de ambiente:
   - Java JDK: Defina o caminho de instalação do seu Java, por exemplo: `C:\Program Files\Java\jdk1.8.0_351\bin`
 
+obs: Caso queria acompanhar um passo a passo de como instalar e configurar o Cypress e o Cucumber, é só clicar nesse https://apricot-myth-659.notion.site/Prepara-o-do-Ambiente-0417187caa4941e2a74ce1c9af1b1260?pvs=4 e acompanhar o passo a passo.
+
 ### Execução
 
 Depois de ter instalado e configurado, execute o seguinte comando no terminal:

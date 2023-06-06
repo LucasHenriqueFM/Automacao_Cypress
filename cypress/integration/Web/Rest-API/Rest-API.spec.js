@@ -8,7 +8,7 @@ When('clicar no botão "Privacy Plicy"', () => {
   //cy.get(':nth-child(2) > .menu-link',{ timeout: 10000 }).should('be.visible').click()
 });
 
-When('clicar no botão "Contact"', () =>{
+And('clicar no botão "Contact"', () =>{
   cy.contains('Privacy Policy').should('be.visible')
   cy.get(':nth-child(3) > .menu-link', {timeout:10000}).should('be.visible').click()
 });
